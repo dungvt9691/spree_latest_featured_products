@@ -3,12 +3,12 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_latest_featured'
   s.version     = '2.3.1'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Manage feature products'
+  s.description = 'Manage feature products'
   s.required_ruby_version = '>= 1.9.3'
 
-  s.author    = 'Kannan SV'
-  s.email     = 'kannanhudson@gmail.com'
+  s.author    = 'LN'
+  s.email     = 'long.polyglot@gmail.com'
   s.homepage  = 'http://www.kannansv.in'
 
   #s.files       = `git ls-files`.split("\n")

@@ -1,12 +1,12 @@
 <%= render :partial => 'spree/admin/shared/product_sub_menu' %>
 
 <% content_for :page_title do %>
-  <%= Spree.t(:latest_products) %>
+  <%= Spree.t(:feature_products) %>
 <% end %>
 
 <% content_for :page_actions do %>
   <li>
-    <%= button_link_to Spree.t(:new_latest), new_object_url, :icon => 'plus', :id => 'admin_new_latest_product_link' %>
+    <%= button_link_to Spree.t(:new_featured_product), new_object_url, :icon => 'plus', :id => 'admin_new_latest_product_link' %>
   </li>
 <% end %>
 
